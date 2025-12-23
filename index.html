@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AFV Viagens | Buscador de Passagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>AFV Viagens</h1>
+  <p>Buscador inteligente de passagens — dinheiro ou milhas</p>
+</header>
+
+<section class="search-box">
+  <input id="origem" type="text" placeholder="Origem (ex: GRU)">
+  <input id="destino" type="text" placeholder="Destino (ex: JFK)">
+  <input id="ida" type="date">
+  <input id="volta" type="date">
+  <button onclick="buscar()">Buscar melhor opção</button>
+</section>
+
+<section id="results"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
